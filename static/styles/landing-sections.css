@@ -315,12 +315,17 @@ footer h1 {
     width: fit-content;
     margin: 0 5vw;
 }
-.footer-body p, .footer-body a {
+
+footer {
+    font-family: 'SF UI Text', sans-serif;
+}
+
+footer a {
     font-size: 20px;
     margin-bottom: 1rem;
     color: white;
 }
-.footer-body a:hover {
+footer a:hover {
     text-decoration: none;
 }
 #inquiry-btn {

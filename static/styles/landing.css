@@ -1,3 +1,7 @@
+html, body {
+    overflow-x: hidden !important;
+}
+
 /* Top section */
 .new-landing {
     font-family: 'SF UI Text', sans-serif;
