@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+ /* -webkit-tap-highlight-color: transparent; 
+  box-sizing: border-box; */
+}
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy/Gilroy-SemiBold.ttf');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy/Gilroy-Bold.ttf');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('../fonts/SF UI Text/SFUIText-Medium.ttf');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('../fonts/SF UI Text/SFUIText-Semibold.ttf');
+	font-weight: 600;
+	font-style: normal;
+}
+
+h1 {
+	font-weight: 700;
+	font-family: 'Gilroy', sans-serif;
+}
+
+p {
+	font-family: 'SF UI Text'
+}
