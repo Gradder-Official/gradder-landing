@@ -16,6 +16,7 @@ function loadLang(lang_key) {
     localStorage.setItem('lang', lang_key);
     if (lang_key in languages) {
         // Use ?v=Date.now() to ensure we never load cached data
+        $("#current-lang").text(languages[lang_key].label);
         $.getJSON(languages[lang_key].path + "?v=" + Date.now(), function (data) {
             $("[data-trans]").each(function (i) {
                 let el = $(this);
@@ -33,6 +34,7 @@ function loadLang(lang_key) {
             })
         })
     } else if (lang_key === "en") {
+        $("#current-lang").text("English");
         $("[data-trans]").each(function (i) {
             let el = $(this);
             if (el.data('phrase') !== undefined) {
@@ -48,17 +50,13 @@ $(document).ready(function () {
         languages = data;
     }).then(function () {
         $("#langs").append(`
-        <li><a class="nav-link" href="javascript:loadLang('en')" data-trans>
-        Eng
-        </a></li>
+        <a class="dropdown-item" href="javascript:loadLang('en')">English</a
         `)
         for (const k in languages) {
             if (languages.hasOwnProperty(k)) {
                 const language = languages[k];
                 $("#langs").append(`
-                <li><a class="nav-link" href="javascript:loadLang('${k}')" data-trans>
-                ${language.label}
-                </a></li>
+                <a class="dropdown-item" href="javascript:loadLang('${k}')">${language.label}</a
                 `)
             }
         }
@@ -76,6 +74,8 @@ $(document).ready(function () {
 
         if (languages.hasOwnProperty(language)) {
             loadLang(language);
+        } else {
+            loadLang('en');
         }
     })
 })

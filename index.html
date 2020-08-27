@@ -51,7 +51,7 @@
             </a></li>
         </ul>
     </div>
-
+    
     <div class="new-landing">
         <div class="section" id="top">
             <div class="right-container-mobile">
@@ -64,9 +64,14 @@
                     <p data-trans>AI-driven School Dashboard</p>
                     <h1 data-trans>Your Smart School Diary</h1>
                     <h3 data-trans>The first transparent all-in-one school management system.</h3>
-                    <ul id="langs">
-    
-                    </ul>
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="material-icons" style="vertical-align:top;">language</span> <span id="current-lang">Loading...</span>
+                        </a>
+                    
+                        <div id="langs" class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        </div>
+                    </div>
                 </div>
                 <ol class="change-slide">
                     <li id="indicator1" class="active"></li>
@@ -517,7 +522,7 @@
                 </ul>
             </div>
             <div class="col-md-6">
-                <h1>Navigation</h1>
+                <h1 data-trans>Navigation</h1>
                 <ul class="list-unstyled">
                     <li><a href="#why" data-trans>Why us?</a></li>
                     <li><a href="#roadmap" data-trans>Roadmap</a></li>
