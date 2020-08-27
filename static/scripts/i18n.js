@@ -13,6 +13,7 @@ function condReplace(element, key, value) {
 }
 
 function loadLang(lang_key) {
+    localStorage.setItem('lang', lang_key);
     if (lang_key in languages) {
         // Use ?v=Date.now() to ensure we never load cached data
         $.getJSON(languages[lang_key].path + "?v=" + Date.now(), function (data) {
@@ -63,8 +64,14 @@ $(document).ready(function () {
         }
     }).then(function () {
         let language = window.navigator.userLanguage || window.navigator.language;
-        language = language.split('-')[0]; // Avoid national dialects (en-US -> en, etc)
+        
+        if (localStorage.getItem('lang') === undefined) {
+            localStorage.setItem('lang', language);
+        } else {
+            language = localStorage.getItem('lang');
+        }
 
+        language = language.split('-')[0]; // Avoid national dialects (en-US -> en, etc)
         console.log("Loading language: " + language);
 
         if (languages.hasOwnProperty(language)) {
