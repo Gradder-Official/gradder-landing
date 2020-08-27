@@ -61,5 +61,14 @@ $(document).ready(function () {
                 `)
             }
         }
+    }).then(function () {
+        let language = window.navigator.userLanguage || window.navigator.language;
+        language = language.split('-')[0]; // Avoid national dialects (en-US -> en, etc)
+
+        console.log("Loading language: " + language);
+
+        if (languages.hasOwnProperty(language)) {
+            loadLang(language);
+        }
     })
 })
