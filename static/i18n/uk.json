@@ -83,15 +83,14 @@
 
 
     "Contact information": "Контактна інформація",
-    "Inquirie": "Маєте запитання? Залиште його тут!",
-    "Nam": "Ім’я",
-    "Emai": "Електронна адреса",
+    "Inquiries": "Маєте запитання? Залиште його тут!",
+    "Name": "Ім’я",
     "Suggestions": "Пропозиції",
-    "Investing in Gradde": "Пропозиція щодо інвестування",
-    "Partnershi": "Партнерство",
-    "Question": "Запитання",
+    "Investing in Gradder": "Пропозиція щодо інвестування",
+    "Partnership": "Партнерство",
+    "Questions": "Запитання",
     "Sign up for early access": "Запит для підключення школи",
-    "Othe": "Інше",
+    "Other": "Інше",
     "Your message": "Ваше звернення",
     "Submit": "Надіслати"
 }

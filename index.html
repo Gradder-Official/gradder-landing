@@ -522,12 +522,71 @@
                 </ul>
             </div>
             <div class="col-md-6">
-                <h1 data-trans>Navigation</h1>
-                <ul class="list-unstyled">
-                    <li><a href="#why" data-trans>Why us?</a></li>
-                    <li><a href="#roadmap" data-trans>Roadmap</a></li>
-                    <li><a href="#team" data-trans>Our Team</a></li>
-                </ul>
+                <h1 data-trans>Inquiries</h1>
+                <form class="enquiry-form" method="POST" name="inquiries" data-netlify="true">
+                    <div class="form-group enquiry-person">
+                      <input
+                        class="form-control"
+                        id="enquiry-name"
+                        name="name"
+                        placeholder="Name"
+                        required=""
+                        type="text"
+                        value=""
+                        data-trans="placeholder"
+                      />
+                  
+                      <input
+                        class="form-control"
+                        id="enquiry-email"
+                        name="email"
+                        placeholder="Email"
+                        required=""
+                        type="text"
+                        value=""
+                        data-trans="placeholder"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <select
+                        class="form-control"
+                        id="enquiry-subject"
+                        name="subject"
+                        placeholder="Subject"
+                        data-trans="placeholder"
+                      >
+                        <option value="Suggestions" data-trans>Suggestions</option>
+                        <option value="Investments" data-trans>Investing in Gradder</option>
+                        <option value="Partnership" data-trans>Partnership</option>
+                        <option value="Questions" data-trans>Questions</option>
+                        <option value="Beta-sign-up" data-trans>Sign up for early access</option>
+                        <option value="Other" data-trans>Other</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <textarea
+                        class="form-control"
+                        cols="30"
+                        id="enquiry-body"
+                        name="inquiry"
+                        placeholder="Your message"
+                        required=""
+                        rows="10"
+                        data-trans="placeholder"
+                      ></textarea>
+                    </div>
+                  
+                    <input
+                      class=""
+                      id="enquiry-submit"
+                      name="submit2"
+                      type="submit"
+                      value="Submit"
+                      data-phrase="Submit"
+                      data-trans="value"
+                    />
+                  </form>
+                  
             </div>
         </div>
     </footer>
