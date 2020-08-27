@@ -2,5 +2,9 @@
     "uk": {
         "label": "Укр",
         "path": "./static/i18n/uk.json"
+    },
+    "fr": {
+        "label": "Fra",
+        "path": "./static/i18n/fr.json"
     }
 }
