@@ -20,16 +20,29 @@ function loadLang(lang_key) {
         $.getJSON(languages[lang_key].path + "?v=" + Date.now(), function (data) {
             $("[data-trans]").each(function (i) {
                 let el = $(this);
+                let trans = el.data('trans');
                 
                 // Set default to revert back to English
-                if (el.data('phrase') === undefined)
-                    el.attr('data-phrase', el.text());
+                if (el.data('phrase') === undefined) {
+                    let text;
+                    if (trans !== "") {
+                        text = el.attr(trans);
+                    } else {
+                        text = el.text();
+                    }
+                    
+                    el.attr('data-phrase', text);
+                }
                 
                 let key = el.data('phrase').trim().toLowerCase();
                 key = key.replace( /\s+/g, ' ')
                 let res = getParameterCaseInsensitive(data, key);
                 if (res !== undefined) {
-                    el.text(res);
+                    if (trans !== "") {
+                        el.attr(trans, res);
+                    } else {
+                        el.text(res);
+                    }
                 }
             })
         })
@@ -37,8 +50,15 @@ function loadLang(lang_key) {
         $("#current-lang").text("English");
         $("[data-trans]").each(function (i) {
             let el = $(this);
-            if (el.data('phrase') !== undefined) {
-                el.text(el.data('phrase'));
+            let trans = el.data('trans');
+            let res = el.data('phrase');
+
+            if (res !== undefined) {
+                if (trans !== "") {
+                    el.attr(trans, res);
+                } else {
+                    el.text(res);
+                }
             }
         });
     }
