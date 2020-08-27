@@ -23,7 +23,7 @@ function loadLang(lang_key) {
                 if (el.data('phrase') === undefined)
                     el.attr('data-phrase', el.text());
                 
-                let key = el.text().trim().toLowerCase();
+                let key = el.data('phrase').trim().toLowerCase();
                 key = key.replace( /\s+/g, ' ')
                 let res = getParameterCaseInsensitive(data, key);
                 if (res !== undefined) {
