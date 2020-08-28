@@ -1,0 +1,10 @@
+{
+    "uk": {
+        "label": "Українська",
+        "path": "./static/i18n/uk.json"
+    },
+    "fr": {
+        "label": "Français",
+        "path": "./static/i18n/fr.json"
+    }
+}
