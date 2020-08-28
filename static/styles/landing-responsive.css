@@ -116,7 +116,7 @@
         width: 100vw;
         height: 50vh;
         display: block;
-        background-image: url("../images/Video\ Background.png");
+        background-image: url("../images/video-background.png");
         background-size: 100% 130%;
         background-repeat: no-repeat;
     }
