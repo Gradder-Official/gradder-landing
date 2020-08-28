@@ -1,7 +1,7 @@
 {
     "uk": {
         "label": "Українська",
-        "path": "./static/i18n/uk.json"
+        "path": "./static/i18n/ua.json"
     },
     "fr": {
         "label": "Français",
