@@ -116,7 +116,7 @@
         width: 100vw;
         height: 50vh;
         display: block;
-        background-image: url("../images/Video\ Background.png");
+        background-image: url("../images/video-background.png");
         background-size: 100% 130%;
         background-repeat: no-repeat;
     }
@@ -137,7 +137,7 @@
     }
     .why-mobile-header {
         height: 30vh;
-        background-image: url("../images/Mockup\ Background.png");
+        background-image: url("../images/mockup-background.png");
         background-size: 100%;
         background-repeat: no-repeat;
         margin-top: -10vh;
@@ -149,7 +149,7 @@
         margin-left: 10vw;
         width: 25vw;
         font-size: 11vw;
-        background-image: url("../images/Green\ Line.png");
+        background-image: url("../images/green-line.png");
         background-size: 100%;
         background-position: top left;
         background-repeat: no-repeat;
@@ -169,7 +169,7 @@
         width: 20vw;
     }
     .reason-list-mobile {
-        background-image: url("../images/Why\ Us\ Background.png");
+        background-image: url("../images/why-us-background.png");
         background-size: 100%;
         background-repeat: no-repeat;
         height: 20vh;
@@ -211,7 +211,7 @@
         width: 95%;
         height: fit-content;
         text-align: center;
-        background-image: url("../images/User\ Reviews.png");
+        background-image: url("../images/user-reviews.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         padding: 30px;
@@ -258,7 +258,7 @@
         display: flex;
         flex-direction: column;
         height: fit-content;
-        background-image: url("../images/Mission\ Statement\ Background.png");
+        background-image: url("../images/mission-statement-background.png");
         background-size: contain;
         background-repeat: no-repeat;
     }
