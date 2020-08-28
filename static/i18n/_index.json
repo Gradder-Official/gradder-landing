@@ -6,5 +6,9 @@
     "fr": {
         "label": "Français",
         "path": "./static/i18n/fr.json"
+    },
+    "ru": {
+        "label": "Русский",
+        "path": "./static/i18n/ru.json"
     }
 }
