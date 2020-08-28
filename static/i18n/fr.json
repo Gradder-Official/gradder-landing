@@ -1,7 +1,8 @@
 {
+    "AI-driven School Dashboard": "Tableau de bord scolaire basé sur l'IA", 
     "Your Smart School Diary": "Votre journal scolaire intelligent",
     "The first transparent all-in-one school management system.": "Le premier système de gestion scolaire tout-en-un transparent.",
-    "Email": "Envoyer un email",
+    "Email": "E-mail",
     "Subscribe": "S'abonner",
     "Contact": "Contacter",
 
@@ -25,7 +26,7 @@
     
     
     "User Reviews": "Avis de nos utilisateurs",
-    "Gradder is a great opportunity to find out my up-to-date grades. I couldn't even dream about it!": "Gradder est une excellente application pour savoir quelles sont mes notes actuelles. Je ne pouvais même pas rêver d'une telle application !",
+    "Gradder is a great opportunity to find out my up-to-date grades. I could not even imagine we'd have this!": "Gradder est une excellente application pour savoir quelles sont mes notes actuelles. Je ne pouvais même pas rêver d'une telle application !",
     "Artem, a high school student": "Artem, un lycéen",
     "I am happy that now I have a tool that helps me be aware of my children's academic performance!": "Je suis heureuse d'avoir maintenant un outil qui m'aide à suivre les résultats scolaires de mes enfants !",
     "Yuliia, Artem's mother": "Yuliia, la m̀ere d'Artem",
@@ -51,7 +52,7 @@
     "Global Finalist at the Diamond Challenge for High School Entrepreneurs": "Finaliste mondial du Diamond Challenge for High School Entrepreneurs",
     
     "May 2020": "Mai 2020",
-    "MVP version created": "Création d'une version VIP",
+    "Minimum Viable Product created": "Création d'une version VIP",
     
     "June 2020": "Juin 2020",
     "Alpha version created": "Version alpha créée",
@@ -66,16 +67,20 @@
     "Our Team": "Notre équipe",
     
     "Serhii Durytskyi": "Serhii Durytskyi",
-    "Co-Founder & Chief Executive Officer": "Cofondateur & président directeur général",
+    "Co-Founder & Chief Executive Officer": "Président-directeur général",
     "Co-founded a tech startup (funded), Winner of National and International Startup Competitions, Founder & Executive President of the educational non-profit organization Elevate the Future Ukraine": "Cofondateur d'une startup technologique (financée), lauréat de concours nationaux et internationaux de startups, fondateur et président exécutif de l'organisation éducative à but non-commercial Elevate the Future Ukraine",
     
     "Daria Valska": "Daria Valska",
     "Chief Business Development Officer": "Responsable du développement commercial",
     "Co-founded a tech startup (funded), National winner at the Diamond Challenge for High School Entrepreneurs, Founder & Vice President of the educational non-profit organization Elevate the Future Ukraine": "Cofondatrice d'une start-up technologique (financée), gagnante nationale du Diamond Challenge for High School Entrepreneurs, fondatrice et vice-présidente de l'organisation éducative à but non-commercial Elevate the Future Ukraine",
 
-    "Alex Nikanov": "Alex Nikanov",
+    "Alex Nikanov": "Alexis Nikanov",
     "Chief Technology Officer": "Directeur de la technologie",
     "Stanford Rebuild Innovator, Northeastern '24. Web developer with 3+ years of experience. Passionate about AI, entrepreneurship, and change. VEX Worlds two-times qualifier.": "Stanford Rebuild Innovator, Northeastern '24. Développeur web avec plus de 3 ans d'expérience. Passionné par l'IA, l'entreprenariat et le changement. Qualifié à deux occasions pour VEX Worlds.",
+
+    "Serhii Durytskyi, Co-Founder & Chief Executive Officer": "Serhii Durytskyi, président-directeur général",
+    "Daria Valska, Chief Business Development Officer": "Daria Valska, responsable du développement commercial",
+    "Alex Nikanov, Chief Technology Officer": "Alexis Nikanov, directeur de la technologie",
 
 
     "Navigation": "Navigation",
