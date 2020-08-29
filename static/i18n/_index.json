@@ -10,5 +10,9 @@
     "ru": {
         "label": "Русский",
         "path": "./static/i18n/ru.json"
+    },
+    "ch": {
+        "label": "中文",
+        "path": "./static/i18n/ch.json"
     }
 }
